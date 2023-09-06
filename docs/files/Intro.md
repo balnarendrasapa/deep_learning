@@ -1,7 +1,3 @@
----
-slug: /
----
-
 # Introduction 
 
 ### Classification
