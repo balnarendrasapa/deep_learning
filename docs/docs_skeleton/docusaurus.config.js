@@ -9,8 +9,8 @@ const projectName = "deep_learning";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Deep Learning",
+  tagline: "Notes for Class",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
@@ -72,7 +72,7 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "GitHub",
@@ -111,11 +111,11 @@ const config = {
           },
           {
             title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+            // items: [
+            //   {
+            //     label: "Blog",
+            //     to: "/blog",
+            //   },
               {
                 label: "GitHub",
                 href: `https://github.com/${organizationName}/${projectName}`,
