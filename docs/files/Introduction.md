@@ -2,7 +2,7 @@
 
 ### Classification
 
-<img src="assets/venn_fields.png" width="400">
+<center><img src="assets/venn_fields.png" width="400"></center>
 
 <br />
 
@@ -17,3 +17,13 @@
 - Unsupervised learning : Training data doesnot include desired outputs
 - Weakly or Semi-supervised learning : Training data includes few outputs
 - Reinforcement learning : Rewards from sequence of actions.
+
+## Deep Learning
+
+- Hierarchical Compositionality: we can make complex functions. Machine learning algorithms may not be able to capture the relationship in data because of their inability to handle complex nature of the data.
+- End to End learning: there is no need for domain knowledge. things like feature extraction etc are handled inside the deep net itself. all we need to is to input the data to the trained model and we get the output.
+
+<center><img src="assets/shallow learning.png" width="600"></center>
+
+- Shallow Model: Shallow models often require handcrafted feature engineering, where domain-specific knowledge is used to create relevant input features.
+- Deep Model: Deep models can automatically learn relevant features from raw data, reducing the need for manual feature engineering. They can discover and extract features at different levels of abstraction.
