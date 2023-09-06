@@ -52,3 +52,15 @@
 > Non-convex functions have regions of both convexity and concavity, making them generally irregular and challenging to optimize, while non-concave functions are specifically those non-convex functions that do not have concave regions.
 
 - Lack of interpretability: Hard to track down what is failing. in end to end systems, it is hard to know why things are not working
+
+### XOR Problem
+
+- The XOR problem is a classic problem in the field of artificial intelligence and deep learning. It serves as a simple yet illustrative example to highlight the limitations of linear models and the power of neural networks, particularly multi-layered networks.
+
+- The XOR (exclusive OR) problem is defined as follows:
+
+Input: You have two binary inputs, usually denoted as A and B, which can each take on values of 0 or 1.
+Output: The goal is to predict the XOR of these two inputs. The XOR operation returns 1 if the inputs are different (e.g., 0 XOR 1 = 1 or 1 XOR 0 = 1) and 0 if the inputs are the same (e.g., 0 XOR 0 = 0 or 1 XOR 1 = 0).
+The XOR function is not linearly separable, which means you cannot draw a straight line to separate the 0s from the 1s in a two-dimensional space of inputs A and B. Linear models, such as logistic regression or single-layer perceptrons, fail to solve the XOR problem because they can only model linear relationships.
+
+- However, the XOR problem can be successfully solved using deep neural networks. Deep learning models, specifically multi-layered feedforward neural networks, can learn complex non-linear relationships between inputs and outputs. In the case of XOR, a two-layer neural network (one hidden layer between the input and output layers) can solve the problem effectively.
