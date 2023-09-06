@@ -2,7 +2,7 @@
 
 ### Classification
 
-<center><img src="https://github.com/balnarendrasapa/deep_learning/assets/61614290/e8cbed55-caca-4181-a6cc-f623f1efd507" width="400"></img></center>
+<center><img src="https://balnarendrasapa.github.io/deep_learning/assets/venn_fields.png" width="400"></img></center>
 
 <br />
 
@@ -23,19 +23,18 @@
 - Hierarchical Compositionality: we can make complex functions. Machine learning algorithms may not be able to capture the relationship in data because of their inability to handle complex nature of the data.
 - End to End learning: there is no need for domain knowledge. things like feature extraction etc are handled inside the deep net itself. all we need to is to input the data to the trained model and we get the output.
 
-<center><img src="https://github.com/balnarendrasapa/deep_learning/assets/61614290/40ab182b-765c-4e75-8f50-3b542e035052" width="600"></img></center>
+<center><img src="https://balnarendrasapa.github.io/deep_learning/assets/shallow learning.png" width="600"></img></center>
 
 - Shallow Model: Shallow models often require handcrafted feature engineering, where domain-specific knowledge is used to create relevant input features.
 - Deep Model: Deep models can automatically learn relevant features from raw data, reducing the need for manual feature engineering. They can discover and extract features at different levels of abstraction.
 
-<center><img src="https://github.com/balnarendrasapa/deep_learning/assets/61614290/0faa701f-163f-4969-aca9-cf7c0e845cc6" width="600"></img></center>
-
+<center><img src="https://balnarendrasapa.github.io/deep_learning/assets/trad diff.png" width="600"></img></center>
 
 - feature extraction and classification are combined together inside the deep net
 
 ### Performance of Machine learning and Deep learning
 
-<center><img src="https://github.com/balnarendrasapa/deep_learning/assets/61614290/0e815d15-f8a4-41f1-8cb7-4f4f6478b1db" width="600"></img></center>
+<center><img src="https://balnarendrasapa.github.io/deep_learning/assets/performance.png" width="600"></img></center>
 
 - As the size of the data increases, the performance of the deep learning model increases.
 - This is due to the fact that machine learning algorithms fail to capture the complex relationship in data.
