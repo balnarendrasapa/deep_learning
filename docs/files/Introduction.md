@@ -27,3 +27,9 @@
 
 - Shallow Model: Shallow models often require handcrafted feature engineering, where domain-specific knowledge is used to create relevant input features.
 - Deep Model: Deep models can automatically learn relevant features from raw data, reducing the need for manual feature engineering. They can discover and extract features at different levels of abstraction.
+
+<center><img src="assets/trad diff.png" width="600"></center>
+
+- feature extraction and classification are combined together inside the deep net
+
+### Performance of Machine learning and Deep learning
