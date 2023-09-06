@@ -2,7 +2,7 @@
 
 ### Classification
 
-<center><img src="assets/venn_fields.png" width="400"></center>
+<center><img src="assets/venn_fields.png" width="400"></img></center>
 
 <br />
 
@@ -23,18 +23,18 @@
 - Hierarchical Compositionality: we can make complex functions. Machine learning algorithms may not be able to capture the relationship in data because of their inability to handle complex nature of the data.
 - End to End learning: there is no need for domain knowledge. things like feature extraction etc are handled inside the deep net itself. all we need to is to input the data to the trained model and we get the output.
 
-<center><img src="assets/shallow learning.png" width="600"></center>
+<center><img src="assets/shallow learning.png" width="600"></img></center>
 
 - Shallow Model: Shallow models often require handcrafted feature engineering, where domain-specific knowledge is used to create relevant input features.
 - Deep Model: Deep models can automatically learn relevant features from raw data, reducing the need for manual feature engineering. They can discover and extract features at different levels of abstraction.
 
-<center><img src="assets/trad diff.png" width="600"></center>
+<center><img src="assets/trad diff.png" width="600"></img></center>
 
 - feature extraction and classification are combined together inside the deep net
 
 ### Performance of Machine learning and Deep learning
 
-<center><img src="assets/performance.png" width="600"></center>
+<center><img src="assets/performance.png" width="600"></img></center>
 
 - As the size of the data increases, the performance of the deep learning model increases.
 - This is due to the fact that machine learning algorithms fail to capture the complex relationship in data.
