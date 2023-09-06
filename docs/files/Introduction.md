@@ -33,3 +33,10 @@
 - feature extraction and classification are combined together inside the deep net
 
 ### Performance of Machine learning and Deep learning
+
+<center><img src="assets/performance.png" width="600"></center>
+
+- As the size of the data increases, the performance of the deep learning model increases.
+- This is due to the fact that machine learning algorithms fail to capture the complex relationship in data.
+- For smaller data, the performance of the machine learning algorithms is higher than deep learning. this is due to overfitting of the data in deep learning. Also there is not enough data so that deep net may not generalize enough. which results in decreased accuracy
+- The performance increases, in the case of deep learning, due to the ability of the deep learning to capture the complex relationship with ability of hierarchical compositionality.
