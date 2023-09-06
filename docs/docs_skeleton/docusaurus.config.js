@@ -111,7 +111,7 @@ const config = {
           },
           {
             title: "More",
-            // items: [
+            items: [
             //   {
             //     label: "Blog",
             //     to: "/blog",
