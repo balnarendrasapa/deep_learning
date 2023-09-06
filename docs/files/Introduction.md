@@ -40,3 +40,13 @@
 - This is due to the fact that machine learning algorithms fail to capture the complex relationship in data.
 - For smaller data, the performance of the machine learning algorithms is higher than deep learning. this is due to overfitting of the data in deep learning. Also there is not enough data so that deep net may not generalize enough. which results in decreased accuracy
 - The performance increases, in the case of deep learning, due to the ability of the deep learning to capture the complex relationship with ability of hierarchical compositionality.
+
+### Problems with Deep learning
+
+- All interesting problems are non-convex in nature.
+
+> Convex functions: imagine a parabola `y = x^2`. Now lets pick to points on the curve and connect them. in this parabola, the line segment always lies above the graph. this property is called chord property
+
+> Concave functions: imagine a parabola `y = -x^2`. Now lets pick to points on the curve and connect them. in this parabola, the line segment always lies below the graph.
+
+> Non-convex functions have regions of both convexity and concavity, making them generally irregular and challenging to optimize, while non-concave functions are specifically those non-convex functions that do not have concave regions.
