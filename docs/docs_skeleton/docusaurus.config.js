@@ -9,8 +9,8 @@ const projectName = "deep_learning";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Deep Learning",
-  tagline: "Notes for Deep Learning",
+  title: "My Site",
+  tagline: "Dinosaurs are cool",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
@@ -60,19 +60,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Deep Learning",
+        title: "My Site",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
         },
         items: [
-          // {
-          //   type: "doc",
-          //   docId: "intro",
-          //   position: "left",
-          //   label: "Tutorial",
-          // },
-          // { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Tutorial",
+          },
+          { to: "/blog", label: "Blog", position: "left" },
           {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "GitHub",
@@ -83,15 +83,15 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          // {
-          //   title: "Docs",
-          //   items: [
-          //     {
-          //       label: "Tutorial",
-          //       to: "/docs/intro",
-          //     },
-          //   ],
-          // },
+          {
+            title: "Docs",
+            items: [
+              {
+                label: "Tutorial",
+                to: "/docs/intro",
+              },
+            ],
+          },
           {
             title: "Community",
             items: [
@@ -112,10 +112,10 @@ const config = {
           {
             title: "More",
             items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
+              {
+                label: "Blog",
+                to: "/blog",
+              },
               {
                 label: "GitHub",
                 href: `https://github.com/${organizationName}/${projectName}`,
