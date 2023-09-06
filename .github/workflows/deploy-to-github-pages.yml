@@ -62,9 +62,6 @@ jobs:
       - name: Copy markdown and notebook files to docs_skeleton
         run: cp -r ./docs/files/** ./docs/docs_skeleton/docs/
 
-      - name: Copy images to docs_skeleton
-        run: cp -r ./docs/files/assets/ ./docs/docs_skeleton/static/
-
       - name: Run nbdoc
         run: nbdoc_build
         working-directory: ./docs/docs_skeleton
