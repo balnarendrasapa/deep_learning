@@ -50,3 +50,5 @@
 > Concave functions: imagine a parabola `y = -x^2`. Now lets pick to points on the curve and connect them. in this parabola, the line segment always lies below the graph.
 
 > Non-convex functions have regions of both convexity and concavity, making them generally irregular and challenging to optimize, while non-concave functions are specifically those non-convex functions that do not have concave regions.
+
+- Lack of interpretability: Hard to track down what is failing. in end to end systems, it is hard to know why things are not working
