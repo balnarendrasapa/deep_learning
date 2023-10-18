@@ -1,3 +1,4 @@
 FROM ubuntu:latest
 
-# Add your custom commands here
+# Install make command, pip, python3, and python3-venv
+RUN apt-get update && apt-get install -y make python3 python3-pip python3-venv
