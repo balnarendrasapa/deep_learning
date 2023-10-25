@@ -8,7 +8,7 @@ def app():
     if image != None:
         with open("image.jpg", "wb") as f:
             f.write(image.getbuffer())
-        st.image(image, use_column_width=True, width=300)
+        st.image(image, use_column_width=True)
         k = DeepFace.analyze(img_path="image.jpg", actions=["age", "gender"])
         st.write(k)
 
