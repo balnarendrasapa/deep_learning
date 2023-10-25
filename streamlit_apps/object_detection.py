@@ -7,7 +7,7 @@ import requests
 
 def app():
     st.set_page_config(page_title="Object Detection", page_icon=":eyes:")
-    option = st.selectbox("Choose an option", ["Object Detection", "Face Recognition"])
+    option = st.selectbox("Choose an option", ["Select", "Object Detection", "Face Recognition"])
     processor = DetrImageProcessor.from_pretrained("facebook/detr-resnet-50", revision="no_timm")
     model = DetrForObjectDetection.from_pretrained("facebook/detr-resnet-50", revision="no_timm")
     if option == "Face Recognition":
@@ -31,7 +31,7 @@ def app():
             results = processor.post_process_object_detection(outputs, target_sizes=target_sizes, threshold=0.9)[0]
             for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
                 box = [round(i, 2) for i in box.tolist()]
-                print(
+                st.write(
                         f"Detected {model.config.id2label[label.item()]} with confidence "
                         f"{round(score.item(), 3)} at location {box}"
                 )
