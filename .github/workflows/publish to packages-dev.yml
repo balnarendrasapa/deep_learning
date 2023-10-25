@@ -1,0 +1,34 @@
+name: publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish-docker-image:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push the Docker image with SHA tag
+        run: |
+          # Use double curly braces for GitHub context variables
+          docker build -f .devcontainer/Dockerfile --tag ghcr.io/balnarendrasapa/dl-image:dev-sha-${{ github.sha }} .
+          docker push ghcr.io/balnarendrasapa/dl-image:dev-sha-${{ github.sha }}
+
+      - name: Tag and push the Docker image as "latest"
+        run: |
+          docker tag ghcr.io/balnarendrasapa/dl-image:dev-sha-${{ github.sha }} ghcr.io/balnarendrasapa/dl-image:dev-latest
+          docker push ghcr.io/balnarendrasapa/dl-image:dev-latest

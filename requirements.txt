@@ -1,2 +1,4 @@
 streamlit
 deepface
+transformers
+torch
