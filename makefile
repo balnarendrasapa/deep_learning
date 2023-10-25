@@ -4,4 +4,4 @@ install:
 
 .PHONY: run
 run:
-	streamlit run streamlit_apps/object_detection_app.py
+	streamlit run streamlit_apps/object_detection.py
