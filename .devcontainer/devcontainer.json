@@ -15,7 +15,8 @@
 			"extensions": [
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				"ms-python.python"
 			]
 		}
 	},
