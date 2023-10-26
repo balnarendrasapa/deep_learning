@@ -4,7 +4,7 @@
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/balnarendrasapa/deep_learning)
 ![GitHub](https://img.shields.io/github/license/balnarendrasapa/deep_learning)
 
-This repository contains all the things that i learnt about deep learning. Currently there is one app available, that is object detection. Notes will be added.
+This repository contains all the things that i learnt about deep learning. Currently there is one app available, that is object detection. Notes will be added. If you want to contribute to this repo, fork this repo, add your changes to the fork and make a pull request. Or you open this repo in codespace by clicking on above badge. this repo also contains dev-container which can be helpful to isolate dev environment.
 
 ## Development setup ⚙️
 
