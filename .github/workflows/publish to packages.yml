@@ -24,10 +24,10 @@ jobs:
 
       - name: Build and push the Docker image
         run: |
-          docker build . --tag ghcr.io/balnarendrasapa/dl-image:sha-${{ github.sha }}
-          docker push ghcr.io/balnarendrasapa/dl-image:sha-${{ github.sha }}
+          docker build . --tag ghcr.io/balnarendrasapa/object-detection:sha-${{ github.sha }}
+          docker push ghcr.io/balnarendrasapa/object-detection:sha-${{ github.sha }}
 
       - name: Tag and push the Docker image as "latest"
         run: |
-          docker tag ghcr.io/balnarendrasapa/dl-image:sha-${{ github.sha }} ghcr.io/balnarendrasapa/dl-image:latest
-          docker push ghcr.io/balnarendrasapa/dl-image:latest
+          docker tag ghcr.io/balnarendrasapa/object-detection:sha-${{ github.sha }} ghcr.io/balnarendrasapa/object-detection:latest
+          docker push ghcr.io/balnarendrasapa/object-detection:latest
